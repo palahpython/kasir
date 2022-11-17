@@ -4,7 +4,6 @@ st.write("""
 """)
 st.text_input("Nama lengkap : ")
 st.text_input("Bank : ")
-st.number_input("Nomor Rekening : ")
 
 st.balloons()
 

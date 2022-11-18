@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.image('kasir.png')
+st.image('kasir.jpg')
 
 st.balloons()

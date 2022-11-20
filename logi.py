@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('This is a title')
+st.image(kasir.jpg)
 
 
 st.balloons()

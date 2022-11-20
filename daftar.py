@@ -4,9 +4,7 @@ DAFTAR
 """)
 
 nama = st.text_input('Nama Lengkap : ')
-genre = st.radio(
-    "Jenis Kelamin",
-    ('', 'Drgenre = st.radio(
+Drgenre = st.radio(
     "What's your favorite movie genre",
     ('Pria', 'Wanita', 'Lainya'))
 number = st.text_input('Nomor Hp. :')

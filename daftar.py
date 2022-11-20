@@ -3,8 +3,8 @@ st.write("""
 DAFTAR
 """)
 
-title = st.text_input('Movie title', 'Life of Brian')
-st.write('The current movie title is', title)
+nama = st.text_input('Nama Lengkap : ')
+st.write('Nama Lengkap', nama)
 
 
 

@@ -15,4 +15,5 @@ daftar = st.button('KIRIM')
 st.write('Nama Lengkap : ',nama)
 st.write('Nomor Hp  : ',number)
 st.write('Kata Sandi : ',password)
+st.write('Jenis Kelamin : ',Drgenre)
 

@@ -4,7 +4,7 @@ DAFTAR
 """)
 
 nama = st.text_input('Nama Lengkap : ')
-umur = st.date('')
+umur = st.date(datetime())
 number = st.text_input('Nomor Hp. :')
 password = st.text_input('Kata Sandi :')
 

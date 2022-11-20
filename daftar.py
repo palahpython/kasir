@@ -4,9 +4,9 @@ DAFTAR
 """)
 
 nama = st.text_input('Nama Lengkap : ')
-umur = st.date_input('')
-number = st.number_input('Nomor Hp. :')
-password = st.password_input('Kata Sandi :')
+umur = st.date('')
+number = st.text_input('Nomor Hp. :')
+password = st.text_input('Kata Sandi :')
 
 st.write('Nama Lengkap : ',nama)
 st.write('Umur : ',umur)

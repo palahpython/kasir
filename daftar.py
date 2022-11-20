@@ -1,4 +1,4 @@
 import streamlit as st
 st.write("""
-DAFTAR
+<h1>DAFTAR
 """)

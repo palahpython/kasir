@@ -1,14 +1,11 @@
 import streamlit as st
 import streamlit.components.v1 as components
-
+    st.image('kasir.png')
 # bootstrap 4 collapse example
 components.html(
     """
     <table>
     <tr>
-     <td>
-     st.image('kasir.png')
-     </td>
     <td>HOME</td>
     <td>|<td>
     <td>Help</td>

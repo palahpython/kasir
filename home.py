@@ -2,18 +2,18 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
-tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
+tab1, tab2, tab3 = st.tabs(["HOME", "PESANAN", "Info"])
 
 with tab1:
-   st.header("A cat")
+   st.header("kasir")
    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
 with tab2:
-   st.header("A dog")
+   st.header("Kasir")
    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
 with tab3:
-   st.header("An owl")
+   st.header("Kasir")
    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
 

@@ -5,8 +5,9 @@ from PIL import Image
 image = Image.open('kasir.png')
 image1 = Image.open('text-kasir.png')
 
-st.image(image, caption=None, width=100, use_column_width=None, clamp=False, channels="RGB", output_format="auto"(image(image1, caption=None, width=100, use_column_width=None, clamp=False, channels="RGB", output_format="auto"))
-st.image(image1, caption=None, width=100, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+img = st.image(image, caption=None, width=100, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+img1 = st.image(image1, caption=None, width=100, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+st.write(img,"",img1)
 
 
 components.html(

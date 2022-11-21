@@ -3,9 +3,7 @@ import streamlit.components.v1 as components
 from PIL import Image
 image = Image.open('kasir.png')
 
-st.image(image, caption='Sunrise by the mountains')
-# bootstrap 4 collapse example
-components.html(
+html = components.html(
     """
     <table>
     <tr>
@@ -17,3 +15,8 @@ components.html(
     """,
     height=600,
 )
+
+
+
+
+st.image(image, caption='Sunrise by the mountains',html)

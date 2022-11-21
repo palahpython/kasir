@@ -3,7 +3,10 @@ import streamlit.components.v1 as components
 from PIL import Image
 image = Image.open('kasir.png')
 
-html = components.html(
+st.image(image, caption='Sunrise by the mountains',)
+width(50)
+height(50)
+components.html(
     """
     <table>
     <tr>
@@ -15,8 +18,3 @@ html = components.html(
     """,
     height=600,
 )
-
-
-
-
-st.image(image, caption='Sunrise by the mountains',html)

@@ -8,6 +8,8 @@ components.html(
     <table>
         <td> HOME </td>
         
-        <td> Info </td>,
+        <td> Info </td>
+        </table>
+        """
     
 )

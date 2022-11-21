@@ -1,6 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as components
-    st.image('kasir.png')
+from PIL import Image
+image = Image.open('kasir.png')
+
+st.image(image, caption='Sunrise by the mountains')
 # bootstrap 4 collapse example
 components.html(
     """

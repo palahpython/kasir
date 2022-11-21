@@ -5,8 +5,10 @@ import streamlit.components.v1 as components
 components.html(
     """
     <table>
+    <tr>
     <div>HOME</div>
     <div>Info</div>
+    </tr>
     </table>
     """,
     height=600,

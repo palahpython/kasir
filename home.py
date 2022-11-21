@@ -6,10 +6,8 @@ components.html(
     """
     <table>
     <tr>
-    <div>HOME</div>
-    </tr>
-    <tr>
-    <div>Help</div>
+    <td>HOME</td>
+    <td>Help</td>
     </tr>
     </table>
     """,

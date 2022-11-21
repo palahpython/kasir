@@ -7,7 +7,9 @@ components.html(
     <table>
     <tr>
     <div>HOME</div>
-    <div>Info</div>
+    </tr>
+    <tr>
+    <div>Help</div>
     </tr>
     </table>
     """,

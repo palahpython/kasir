@@ -6,6 +6,7 @@ components.html(
     """
     <table>
     <tr>
+     <td> <image src="kasir.png"></image></td>
     <td>HOME</td>
     <td>|<td>
     <td>Help</td>

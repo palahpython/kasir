@@ -2,12 +2,19 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
-image = Image.open('kasir.png')
-image1 = Image.open('text-kasir.png')
+tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
 
-img = st.image(image, caption=None, width=100, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
-img1 = st.image(image1, caption=None, width=100, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
-st.write(img,"",img1)
+with tab1:
+   st.header("A cat")
+   st.image("kasir.png", width=200)
+
+with tab2:
+   st.header("A dog")
+   st.image("text-kasir.png", width=200)
+
+with tab3:
+   st.header("An owl")
+   st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
 
 components.html(
